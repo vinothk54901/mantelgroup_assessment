@@ -37,12 +37,17 @@
 
 <details>
 <summary> 2. Performance </summary>
+
 - Instead of nested for loops for compute influence and update weights, We can use numpy vectorization and broad casting
+    - Precompute coordinate grids to avoid recalculating positions in every iteration.
+    - Vectorize distance computations and weight updates using NumPy broadcasting.
+
 
 <br>
+
 | Before Refactor |   | After Refactor |
 |-----------------|---|----------------|
-| ![Before](./images/Updated_weights_old.PNG) | ![VS](./images/vs.PNG) | ![After](./images/Updated_weights_new.PNG) |
+| ![Before](./images/Update_weights_old.PNG) | ![VS](./images/vs.PNG) | ![After](./images/Update_weights_new.PNG) |
 </details>
 
 
