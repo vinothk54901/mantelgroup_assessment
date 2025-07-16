@@ -53,7 +53,8 @@
 
 <details>
 <summary>3. Small, Single-Responsibility Functions</summary>
-    - Spliited into multiple smaller functions for more readability and maintainability
+
+- Spliited into multiple smaller functions for more readability and maintainability
 </details>    
 
 <details>
