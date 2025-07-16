@@ -5,6 +5,7 @@ description = "Mantel group Kohonen assessment"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "black>=25.1.0",
     "hyperopt>=0.2.7",
     "joblib>=1.5.1",
     "matplotlib>=3.10.3",

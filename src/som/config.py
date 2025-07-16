@@ -1,7 +1,7 @@
 from pydantic import BaseModel, PositiveInt, confloat
 
+
 class SOMConfig(BaseModel):
-    
     """
     Configuration schema for initializing a Self-Organizing Map (SOM).
 
