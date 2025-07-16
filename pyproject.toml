@@ -1,0 +1,16 @@
+[project]
+name = "mantelgroup-assessment"
+version = "0.1.0"
+description = "Mantel group Kohonen assessment"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "hyperopt>=0.2.7",
+    "joblib>=1.5.1",
+    "matplotlib>=3.10.3",
+    "mlflow>=3.1.1",
+    "numpy>=2.3.1",
+    "pandas>=2.3.1",
+    "pydantic>=2.11.7",
+    "scikit-learn>=1.7.0",
+]

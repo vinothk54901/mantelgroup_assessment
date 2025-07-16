@@ -1,0 +1,9 @@
+numpy
+matplotlib
+scikit-learn
+pydantic
+joblib
+mlflow
+hyperopt
+pandas
+
